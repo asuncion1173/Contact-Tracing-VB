@@ -39,62 +39,63 @@ Partial Class Form1
         Me.gender = New System.Windows.Forms.Label()
         Me.email = New System.Windows.Forms.Label()
         Me.dateOfVisit = New System.Windows.Forms.Label()
+        Me.titleName = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'submitBtn
         '
-        Me.submitBtn.Location = New System.Drawing.Point(389, 282)
+        Me.submitBtn.Location = New System.Drawing.Point(374, 321)
         Me.submitBtn.Name = "submitBtn"
-        Me.submitBtn.Size = New System.Drawing.Size(75, 23)
+        Me.submitBtn.Size = New System.Drawing.Size(88, 26)
         Me.submitBtn.TabIndex = 0
         Me.submitBtn.Text = "Submit"
         Me.submitBtn.UseVisualStyleBackColor = True
         '
         'firstTxtBox
         '
-        Me.firstTxtBox.Location = New System.Drawing.Point(49, 52)
+        Me.firstTxtBox.Location = New System.Drawing.Point(47, 91)
         Me.firstTxtBox.Name = "firstTxtBox"
         Me.firstTxtBox.Size = New System.Drawing.Size(177, 20)
         Me.firstTxtBox.TabIndex = 1
         '
         'lastTxtBox
         '
-        Me.lastTxtBox.Location = New System.Drawing.Point(287, 52)
+        Me.lastTxtBox.Location = New System.Drawing.Point(285, 91)
         Me.lastTxtBox.Name = "lastTxtBox"
         Me.lastTxtBox.Size = New System.Drawing.Size(177, 20)
         Me.lastTxtBox.TabIndex = 2
         '
         'contactTxtBox
         '
-        Me.contactTxtBox.Location = New System.Drawing.Point(49, 144)
+        Me.contactTxtBox.Location = New System.Drawing.Point(47, 183)
         Me.contactTxtBox.Name = "contactTxtBox"
         Me.contactTxtBox.Size = New System.Drawing.Size(137, 20)
         Me.contactTxtBox.TabIndex = 3
         '
         'residenceTxtBox
         '
-        Me.residenceTxtBox.Location = New System.Drawing.Point(49, 102)
+        Me.residenceTxtBox.Location = New System.Drawing.Point(47, 141)
         Me.residenceTxtBox.Name = "residenceTxtBox"
         Me.residenceTxtBox.Size = New System.Drawing.Size(415, 20)
         Me.residenceTxtBox.TabIndex = 4
         '
         'dateTxtBox
         '
-        Me.dateTxtBox.Location = New System.Drawing.Point(49, 238)
+        Me.dateTxtBox.Location = New System.Drawing.Point(47, 277)
         Me.dateTxtBox.Name = "dateTxtBox"
         Me.dateTxtBox.Size = New System.Drawing.Size(113, 20)
         Me.dateTxtBox.TabIndex = 5
         '
         'emailTxtBox
         '
-        Me.emailTxtBox.Location = New System.Drawing.Point(49, 191)
+        Me.emailTxtBox.Location = New System.Drawing.Point(47, 230)
         Me.emailTxtBox.Name = "emailTxtBox"
         Me.emailTxtBox.Size = New System.Drawing.Size(229, 20)
         Me.emailTxtBox.TabIndex = 6
         '
         'genderTxtBox
         '
-        Me.genderTxtBox.Location = New System.Drawing.Point(213, 144)
+        Me.genderTxtBox.Location = New System.Drawing.Point(211, 183)
         Me.genderTxtBox.Name = "genderTxtBox"
         Me.genderTxtBox.Size = New System.Drawing.Size(65, 20)
         Me.genderTxtBox.TabIndex = 7
@@ -102,7 +103,7 @@ Partial Class Form1
         'firstName
         '
         Me.firstName.AutoSize = True
-        Me.firstName.Location = New System.Drawing.Point(46, 36)
+        Me.firstName.Location = New System.Drawing.Point(44, 75)
         Me.firstName.Name = "firstName"
         Me.firstName.Size = New System.Drawing.Size(57, 13)
         Me.firstName.TabIndex = 8
@@ -111,7 +112,7 @@ Partial Class Form1
         'lastName
         '
         Me.lastName.AutoSize = True
-        Me.lastName.Location = New System.Drawing.Point(284, 36)
+        Me.lastName.Location = New System.Drawing.Point(282, 75)
         Me.lastName.Name = "lastName"
         Me.lastName.Size = New System.Drawing.Size(58, 13)
         Me.lastName.TabIndex = 9
@@ -119,7 +120,7 @@ Partial Class Form1
         '
         'midTxtBox
         '
-        Me.midTxtBox.Location = New System.Drawing.Point(242, 52)
+        Me.midTxtBox.Location = New System.Drawing.Point(240, 91)
         Me.midTxtBox.Name = "midTxtBox"
         Me.midTxtBox.Size = New System.Drawing.Size(30, 20)
         Me.midTxtBox.TabIndex = 10
@@ -127,7 +128,7 @@ Partial Class Form1
         'middleName
         '
         Me.middleName.AutoSize = True
-        Me.middleName.Location = New System.Drawing.Point(239, 36)
+        Me.middleName.Location = New System.Drawing.Point(237, 75)
         Me.middleName.Name = "middleName"
         Me.middleName.Size = New System.Drawing.Size(25, 13)
         Me.middleName.TabIndex = 11
@@ -136,7 +137,7 @@ Partial Class Form1
         'residence
         '
         Me.residence.AutoSize = True
-        Me.residence.Location = New System.Drawing.Point(46, 86)
+        Me.residence.Location = New System.Drawing.Point(44, 125)
         Me.residence.Name = "residence"
         Me.residence.Size = New System.Drawing.Size(58, 13)
         Me.residence.TabIndex = 12
@@ -145,7 +146,7 @@ Partial Class Form1
         'contactNumber
         '
         Me.contactNumber.AutoSize = True
-        Me.contactNumber.Location = New System.Drawing.Point(46, 128)
+        Me.contactNumber.Location = New System.Drawing.Point(44, 167)
         Me.contactNumber.Name = "contactNumber"
         Me.contactNumber.Size = New System.Drawing.Size(84, 13)
         Me.contactNumber.TabIndex = 13
@@ -154,7 +155,7 @@ Partial Class Form1
         'gender
         '
         Me.gender.AutoSize = True
-        Me.gender.Location = New System.Drawing.Point(210, 128)
+        Me.gender.Location = New System.Drawing.Point(208, 167)
         Me.gender.Name = "gender"
         Me.gender.Size = New System.Drawing.Size(42, 13)
         Me.gender.TabIndex = 14
@@ -163,7 +164,7 @@ Partial Class Form1
         'email
         '
         Me.email.AutoSize = True
-        Me.email.Location = New System.Drawing.Point(46, 175)
+        Me.email.Location = New System.Drawing.Point(44, 214)
         Me.email.Name = "email"
         Me.email.Size = New System.Drawing.Size(32, 13)
         Me.email.TabIndex = 15
@@ -172,17 +173,28 @@ Partial Class Form1
         'dateOfVisit
         '
         Me.dateOfVisit.AutoSize = True
-        Me.dateOfVisit.Location = New System.Drawing.Point(46, 222)
+        Me.dateOfVisit.Location = New System.Drawing.Point(44, 261)
         Me.dateOfVisit.Name = "dateOfVisit"
         Me.dateOfVisit.Size = New System.Drawing.Size(64, 13)
         Me.dateOfVisit.TabIndex = 16
         Me.dateOfVisit.Text = "Date of Visit"
+        '
+        'titleName
+        '
+        Me.titleName.AutoSize = True
+        Me.titleName.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.titleName.Location = New System.Drawing.Point(183, 29)
+        Me.titleName.Name = "titleName"
+        Me.titleName.Size = New System.Drawing.Size(139, 25)
+        Me.titleName.TabIndex = 17
+        Me.titleName.Text = "Stay Safe App"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(501, 364)
+        Me.Controls.Add(Me.titleName)
         Me.Controls.Add(Me.dateOfVisit)
         Me.Controls.Add(Me.email)
         Me.Controls.Add(Me.gender)
@@ -224,4 +236,5 @@ Partial Class Form1
     Friend WithEvents gender As Label
     Friend WithEvents email As Label
     Friend WithEvents dateOfVisit As Label
+    Friend WithEvents titleName As Label
 End Class
