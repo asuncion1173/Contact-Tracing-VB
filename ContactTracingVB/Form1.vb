@@ -2,6 +2,9 @@
     Private Sub submitBtn_Click(sender As Object, e As EventArgs) Handles submitBtn.Click
         Dim visitorFile As System.IO.StreamWriter
         Dim firstName As String = firstTxtBox.Text
+        If System.IO.File.Exists("C:\Users\ASUNCION\Desktop\Visitor's Files\" + firstName + ".txt") Then
+            System.IO.File.Delete("C:\Users\ASUNCION\Desktop\Visitor's Files\" + firstName + ".txt")
+        End If
         visitorFile = My.Computer.FileSystem.OpenTextFileWriter("C:\Users\ASUNCION\Desktop\Visitor's Files\" + firstName + ".txt", True)
         visitorFile.WriteLine("First Name: " + firstTxtBox.Text)
         visitorFile.WriteLine("Middle Initial: " + midTxtBox.Text)
