@@ -12,5 +12,6 @@
         visitorFile.WriteLine(emailTxtBox.Text)
         visitorFile.WriteLine(dateTxtBox.Text)
         visitorFile.Close()
+        MessageBox.Show("Thank you for submitting! Stay safe and always wear your mask!")
     End Sub
 End Class
