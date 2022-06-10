@@ -22,184 +22,184 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.submitBtn = New System.Windows.Forms.Button()
+        Me.firstTxtBox = New System.Windows.Forms.TextBox()
+        Me.lastTxtBox = New System.Windows.Forms.TextBox()
+        Me.contactTxtBox = New System.Windows.Forms.TextBox()
+        Me.residenceTxtBox = New System.Windows.Forms.TextBox()
+        Me.dateTxtBox = New System.Windows.Forms.TextBox()
+        Me.emailTxtBox = New System.Windows.Forms.TextBox()
+        Me.genderTxtBox = New System.Windows.Forms.TextBox()
+        Me.firstName = New System.Windows.Forms.Label()
+        Me.lastName = New System.Windows.Forms.Label()
+        Me.midTxtBox = New System.Windows.Forms.TextBox()
+        Me.middleName = New System.Windows.Forms.Label()
+        Me.residence = New System.Windows.Forms.Label()
+        Me.contactNumber = New System.Windows.Forms.Label()
+        Me.gender = New System.Windows.Forms.Label()
+        Me.email = New System.Windows.Forms.Label()
+        Me.dateOfVisit = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'submitBtn
         '
-        Me.Button1.Location = New System.Drawing.Point(308, 300)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.submitBtn.Location = New System.Drawing.Point(389, 282)
+        Me.submitBtn.Name = "submitBtn"
+        Me.submitBtn.Size = New System.Drawing.Size(75, 23)
+        Me.submitBtn.TabIndex = 0
+        Me.submitBtn.Text = "Submit"
+        Me.submitBtn.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'firstTxtBox
         '
-        Me.TextBox1.Location = New System.Drawing.Point(49, 52)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(177, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.firstTxtBox.Location = New System.Drawing.Point(49, 52)
+        Me.firstTxtBox.Name = "firstTxtBox"
+        Me.firstTxtBox.Size = New System.Drawing.Size(177, 20)
+        Me.firstTxtBox.TabIndex = 1
         '
-        'TextBox2
+        'lastTxtBox
         '
-        Me.TextBox2.Location = New System.Drawing.Point(287, 52)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(177, 20)
-        Me.TextBox2.TabIndex = 2
+        Me.lastTxtBox.Location = New System.Drawing.Point(287, 52)
+        Me.lastTxtBox.Name = "lastTxtBox"
+        Me.lastTxtBox.Size = New System.Drawing.Size(177, 20)
+        Me.lastTxtBox.TabIndex = 2
         '
-        'TextBox3
+        'contactTxtBox
         '
-        Me.TextBox3.Location = New System.Drawing.Point(49, 144)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(113, 20)
-        Me.TextBox3.TabIndex = 3
+        Me.contactTxtBox.Location = New System.Drawing.Point(49, 144)
+        Me.contactTxtBox.Name = "contactTxtBox"
+        Me.contactTxtBox.Size = New System.Drawing.Size(137, 20)
+        Me.contactTxtBox.TabIndex = 3
         '
-        'TextBox4
+        'residenceTxtBox
         '
-        Me.TextBox4.Location = New System.Drawing.Point(49, 102)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(415, 20)
-        Me.TextBox4.TabIndex = 4
+        Me.residenceTxtBox.Location = New System.Drawing.Point(49, 102)
+        Me.residenceTxtBox.Name = "residenceTxtBox"
+        Me.residenceTxtBox.Size = New System.Drawing.Size(415, 20)
+        Me.residenceTxtBox.TabIndex = 4
         '
-        'TextBox5
+        'dateTxtBox
         '
-        Me.TextBox5.Location = New System.Drawing.Point(49, 238)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(113, 20)
-        Me.TextBox5.TabIndex = 5
+        Me.dateTxtBox.Location = New System.Drawing.Point(49, 238)
+        Me.dateTxtBox.Name = "dateTxtBox"
+        Me.dateTxtBox.Size = New System.Drawing.Size(113, 20)
+        Me.dateTxtBox.TabIndex = 5
         '
-        'TextBox6
+        'emailTxtBox
         '
-        Me.TextBox6.Location = New System.Drawing.Point(49, 191)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(229, 20)
-        Me.TextBox6.TabIndex = 6
+        Me.emailTxtBox.Location = New System.Drawing.Point(49, 191)
+        Me.emailTxtBox.Name = "emailTxtBox"
+        Me.emailTxtBox.Size = New System.Drawing.Size(229, 20)
+        Me.emailTxtBox.TabIndex = 6
         '
-        'TextBox7
+        'genderTxtBox
         '
-        Me.TextBox7.Location = New System.Drawing.Point(213, 144)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(65, 20)
-        Me.TextBox7.TabIndex = 7
+        Me.genderTxtBox.Location = New System.Drawing.Point(213, 144)
+        Me.genderTxtBox.Name = "genderTxtBox"
+        Me.genderTxtBox.Size = New System.Drawing.Size(65, 20)
+        Me.genderTxtBox.TabIndex = 7
         '
-        'Label1
+        'firstName
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(46, 36)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 8
-        Me.Label1.Text = "Label1"
+        Me.firstName.AutoSize = True
+        Me.firstName.Location = New System.Drawing.Point(46, 36)
+        Me.firstName.Name = "firstName"
+        Me.firstName.Size = New System.Drawing.Size(57, 13)
+        Me.firstName.TabIndex = 8
+        Me.firstName.Text = "First Name"
         '
-        'Label2
+        'lastName
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(295, 36)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
-        Me.Label2.TabIndex = 9
-        Me.Label2.Text = "Label2"
+        Me.lastName.AutoSize = True
+        Me.lastName.Location = New System.Drawing.Point(284, 36)
+        Me.lastName.Name = "lastName"
+        Me.lastName.Size = New System.Drawing.Size(58, 13)
+        Me.lastName.TabIndex = 9
+        Me.lastName.Text = "Last Name"
         '
-        'TextBox8
+        'midTxtBox
         '
-        Me.TextBox8.Location = New System.Drawing.Point(242, 52)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(30, 20)
-        Me.TextBox8.TabIndex = 10
+        Me.midTxtBox.Location = New System.Drawing.Point(242, 52)
+        Me.midTxtBox.Name = "midTxtBox"
+        Me.midTxtBox.Size = New System.Drawing.Size(30, 20)
+        Me.midTxtBox.TabIndex = 10
         '
-        'Label3
+        'middleName
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(239, 36)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Label3"
+        Me.middleName.AutoSize = True
+        Me.middleName.Location = New System.Drawing.Point(239, 36)
+        Me.middleName.Name = "middleName"
+        Me.middleName.Size = New System.Drawing.Size(25, 13)
+        Me.middleName.TabIndex = 11
+        Me.middleName.Text = "M.I."
         '
-        'Label4
+        'residence
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(46, 86)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
-        Me.Label4.TabIndex = 12
-        Me.Label4.Text = "Label4"
+        Me.residence.AutoSize = True
+        Me.residence.Location = New System.Drawing.Point(46, 86)
+        Me.residence.Name = "residence"
+        Me.residence.Size = New System.Drawing.Size(58, 13)
+        Me.residence.TabIndex = 12
+        Me.residence.Text = "Residence"
         '
-        'Label5
+        'contactNumber
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(46, 128)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(39, 13)
-        Me.Label5.TabIndex = 13
-        Me.Label5.Text = "Label5"
+        Me.contactNumber.AutoSize = True
+        Me.contactNumber.Location = New System.Drawing.Point(46, 128)
+        Me.contactNumber.Name = "contactNumber"
+        Me.contactNumber.Size = New System.Drawing.Size(84, 13)
+        Me.contactNumber.TabIndex = 13
+        Me.contactNumber.Text = "Contact Number"
         '
-        'Label6
+        'gender
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(210, 128)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(39, 13)
-        Me.Label6.TabIndex = 14
-        Me.Label6.Text = "Label6"
+        Me.gender.AutoSize = True
+        Me.gender.Location = New System.Drawing.Point(210, 128)
+        Me.gender.Name = "gender"
+        Me.gender.Size = New System.Drawing.Size(42, 13)
+        Me.gender.TabIndex = 14
+        Me.gender.Text = "Gender"
         '
-        'Label7
+        'email
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(46, 175)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(39, 13)
-        Me.Label7.TabIndex = 15
-        Me.Label7.Text = "Label7"
+        Me.email.AutoSize = True
+        Me.email.Location = New System.Drawing.Point(46, 175)
+        Me.email.Name = "email"
+        Me.email.Size = New System.Drawing.Size(32, 13)
+        Me.email.TabIndex = 15
+        Me.email.Text = "Email"
         '
-        'Label8
+        'dateOfVisit
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(46, 222)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(39, 13)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "Label8"
+        Me.dateOfVisit.AutoSize = True
+        Me.dateOfVisit.Location = New System.Drawing.Point(46, 222)
+        Me.dateOfVisit.Name = "dateOfVisit"
+        Me.dateOfVisit.Size = New System.Drawing.Size(64, 13)
+        Me.dateOfVisit.TabIndex = 16
+        Me.dateOfVisit.Text = "Date of Visit"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(501, 455)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(501, 364)
+        Me.Controls.Add(Me.dateOfVisit)
+        Me.Controls.Add(Me.email)
+        Me.Controls.Add(Me.gender)
+        Me.Controls.Add(Me.contactNumber)
+        Me.Controls.Add(Me.residence)
+        Me.Controls.Add(Me.middleName)
+        Me.Controls.Add(Me.midTxtBox)
+        Me.Controls.Add(Me.lastName)
+        Me.Controls.Add(Me.firstName)
+        Me.Controls.Add(Me.genderTxtBox)
+        Me.Controls.Add(Me.emailTxtBox)
+        Me.Controls.Add(Me.dateTxtBox)
+        Me.Controls.Add(Me.residenceTxtBox)
+        Me.Controls.Add(Me.contactTxtBox)
+        Me.Controls.Add(Me.lastTxtBox)
+        Me.Controls.Add(Me.firstTxtBox)
+        Me.Controls.Add(Me.submitBtn)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -207,21 +207,21 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
+    Friend WithEvents submitBtn As Button
+    Friend WithEvents firstTxtBox As TextBox
+    Friend WithEvents lastTxtBox As TextBox
+    Friend WithEvents contactTxtBox As TextBox
+    Friend WithEvents residenceTxtBox As TextBox
+    Friend WithEvents dateTxtBox As TextBox
+    Friend WithEvents emailTxtBox As TextBox
+    Friend WithEvents genderTxtBox As TextBox
+    Friend WithEvents firstName As Label
+    Friend WithEvents lastName As Label
+    Friend WithEvents midTxtBox As TextBox
+    Friend WithEvents middleName As Label
+    Friend WithEvents residence As Label
+    Friend WithEvents contactNumber As Label
+    Friend WithEvents gender As Label
+    Friend WithEvents email As Label
+    Friend WithEvents dateOfVisit As Label
 End Class
