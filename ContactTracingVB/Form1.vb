@@ -1,7 +1,8 @@
 ﻿Public Class Form1
     Private Sub submitBtn_Click(sender As Object, e As EventArgs) Handles submitBtn.Click
         Dim visitorFile As System.IO.StreamWriter
-        visitorFile = My.Computer.FileSystem.OpenTextFileWriter("C:\Users\ASUNCION\Desktop\Visitor's Files\Visitor.txt", True)
+        Dim firstName As String = firstTxtBox.Text
+        visitorFile = My.Computer.FileSystem.OpenTextFileWriter("C:\Users\ASUNCION\Desktop\Visitor's Files\" + firstName + ".txt", True)
         visitorFile.WriteLine("First Name: " + firstTxtBox.Text)
         visitorFile.WriteLine("Middle Initial: " + midTxtBox.Text)
         visitorFile.WriteLine("Last Name: " + lastTxtBox.Text)
