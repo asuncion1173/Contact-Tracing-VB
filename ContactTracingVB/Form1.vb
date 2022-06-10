@@ -13,6 +13,14 @@
         visitorFile.WriteLine("Date of Visit: " + dateTxtBox.Text)
         visitorFile.Close()
         MessageBox.Show("Thank you for submitting! Stay safe and always wear your mask!")
+        firstTxtBox.Text = ""
+        midTxtBox.Text = ""
+        lastTxtBox.Text = ""
+        residenceTxtBox.Text = ""
+        contactTxtBox.Text = ""
+        genderTxtBox.Text = ""
+        emailTxtBox.Text = ""
+        dateTxtBox.Text = ""
     End Sub
 
     Private Sub clearBtn_Click(sender As Object, e As EventArgs) Handles clearBtn.Click
