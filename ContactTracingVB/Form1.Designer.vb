@@ -40,6 +40,7 @@ Partial Class Form1
         Me.email = New System.Windows.Forms.Label()
         Me.dateOfVisit = New System.Windows.Forms.Label()
         Me.titleName = New System.Windows.Forms.Label()
+        Me.clearBtn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'submitBtn
@@ -189,11 +190,21 @@ Partial Class Form1
         Me.titleName.TabIndex = 17
         Me.titleName.Text = "Stay Safe App"
         '
+        'clearBtn
+        '
+        Me.clearBtn.Location = New System.Drawing.Point(285, 321)
+        Me.clearBtn.Name = "clearBtn"
+        Me.clearBtn.Size = New System.Drawing.Size(75, 26)
+        Me.clearBtn.TabIndex = 18
+        Me.clearBtn.Text = "Clear"
+        Me.clearBtn.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(501, 364)
+        Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.titleName)
         Me.Controls.Add(Me.dateOfVisit)
         Me.Controls.Add(Me.email)
@@ -237,4 +248,5 @@ Partial Class Form1
     Friend WithEvents email As Label
     Friend WithEvents dateOfVisit As Label
     Friend WithEvents titleName As Label
+    Friend WithEvents clearBtn As Button
 End Class
