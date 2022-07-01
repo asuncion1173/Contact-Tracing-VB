@@ -31,6 +31,7 @@ Public Class Form2
                 form1.fromQR = result.ToString()
                 Me.Hide()
                 form1.Show()
+                MessageBox.Show(result.ToString())
             End If
         End If
 

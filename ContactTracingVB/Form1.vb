@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+    Public Property fromQR As String
     Private Sub submitBtn_Click(sender As Object, e As EventArgs) Handles submitBtn.Click
         Dim visitorFile As System.IO.StreamWriter
         Dim firstName As String = firstTxtBox.Text
@@ -35,5 +36,13 @@
         genderTxtBox.Text = ""
         emailTxtBox.Text = ""
         dateTxtBox.Text = ""
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim infoQR As String() = fromQR.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+        firstTxtBox.Text = infoQR(0)
+        midTxtBox.Text = infoQR(1)
+        lastTxtBox.Text = infoQR(2)
+        residenceTxtBox.Text = infoQR(3)
     End Sub
 End Class
