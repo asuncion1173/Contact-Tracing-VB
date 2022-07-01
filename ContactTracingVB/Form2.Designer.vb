@@ -22,9 +22,11 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.scanBtn = New System.Windows.Forms.Button()
         Me.qrPictureBox = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.timer = New System.Windows.Forms.Timer(Me.components)
         CType(Me.qrPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -55,6 +57,10 @@ Partial Class Form2
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "QR Reader"
         '
+        'timer
+        '
+        Me.timer.Interval = 1000
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -75,4 +81,5 @@ Partial Class Form2
     Friend WithEvents scanBtn As Button
     Friend WithEvents qrPictureBox As PictureBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents timer As Timer
 End Class
