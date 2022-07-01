@@ -10,3 +10,13 @@ C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\obj\Debug\Co
 C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\obj\Debug\ContactTracingVB.exe
 C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\obj\Debug\ContactTracingVB.xml
 C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\obj\Debug\ContactTracingVB.pdb
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\AForge.dll
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\AForge.Video.dll
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\zxing.dll
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\AForge.xml
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\AForge.Video.xml
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\zxing.pdb
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\bin\Debug\zxing.xml
+C:\Users\ASUNCION\source\repos\VB\ContactTracingVB\ContactTracingVB\obj\Debug\ContactTracingVB.Form2.resources
