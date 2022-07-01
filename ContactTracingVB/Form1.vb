@@ -15,6 +15,9 @@
         visitorFile.WriteLine("Gender: " + genderTxtBox.Text)
         visitorFile.WriteLine("Email: " + emailTxtBox.Text)
         visitorFile.WriteLine("Date of Visit: " + dateTxtBox.Text)
+        visitorFile.WriteLine("Positive in Symptoms: " + symptomsTxtBox.Text)
+        visitorFile.WriteLine("Has travelled: " + travelTxtBox.Text)
+        visitorFile.WriteLine("Close Contact: " + closeContactTxtBox.Text)
         visitorFile.Close()
         MessageBox.Show("Thank you for submitting! Stay safe and always wear your mask!")
         firstTxtBox.Text = ""
@@ -36,6 +39,9 @@
         genderTxtBox.Text = ""
         emailTxtBox.Text = ""
         dateTxtBox.Text = ""
+        symptomsTxtBox.Text = ""
+        travelTxtBox.Text = ""
+        closeContactTxtBox.Text = ""
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -44,5 +50,12 @@
         midTxtBox.Text = infoQR(1)
         lastTxtBox.Text = infoQR(2)
         residenceTxtBox.Text = infoQR(3)
+        contactTxtBox.Text = infoQR(4)
+        genderTxtBox.Text = infoQR(5)
+        emailTxtBox.Text = infoQR(6)
+        dateTxtBox.Text = infoQR(7)
+        symptomsTxtBox.Text = infoQR(8)
+        travelTxtBox.Text = infoQR(9)
+        closeContactTxtBox.Text = infoQR(10)
     End Sub
 End Class

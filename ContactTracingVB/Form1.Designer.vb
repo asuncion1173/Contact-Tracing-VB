@@ -43,11 +43,11 @@ Partial Class Form1
         Me.titleName = New System.Windows.Forms.Label()
         Me.clearBtn = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.symptomsTxtBox = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.travelTxtBox = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.closeContactTxtBox = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'submitBtn
@@ -227,12 +227,12 @@ Partial Class Form1
         Me.Label1.TabIndex = 20
         Me.Label1.Text = "Have you had any" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "of the Covid-19 symptoms?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(Fever, Cough, Runny nose, etc.)"
         '
-        'TextBox1
+        'symptomsTxtBox
         '
-        Me.TextBox1.Location = New System.Drawing.Point(333, 324)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(115, 19)
-        Me.TextBox1.TabIndex = 19
+        Me.symptomsTxtBox.Location = New System.Drawing.Point(333, 324)
+        Me.symptomsTxtBox.Name = "symptomsTxtBox"
+        Me.symptomsTxtBox.Size = New System.Drawing.Size(115, 19)
+        Me.symptomsTxtBox.TabIndex = 19
         '
         'Label2
         '
@@ -244,12 +244,12 @@ Partial Class Form1
         Me.Label2.TabIndex = 22
         Me.Label2.Text = "Have you travelled outside of the" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Philippines for the last 14 days?"
         '
-        'TextBox2
+        'travelTxtBox
         '
-        Me.TextBox2.Location = New System.Drawing.Point(333, 367)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(115, 19)
-        Me.TextBox2.TabIndex = 21
+        Me.travelTxtBox.Location = New System.Drawing.Point(333, 367)
+        Me.travelTxtBox.Name = "travelTxtBox"
+        Me.travelTxtBox.Size = New System.Drawing.Size(115, 19)
+        Me.travelTxtBox.TabIndex = 21
         '
         'Label3
         '
@@ -262,12 +262,12 @@ Partial Class Form1
         Me.Label3.Text = "Have you had any close contact from" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "a person who was suspectible of the" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Covid-1" &
     "9 virus?"
         '
-        'TextBox3
+        'closeContactTxtBox
         '
-        Me.TextBox3.Location = New System.Drawing.Point(333, 414)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(115, 19)
-        Me.TextBox3.TabIndex = 23
+        Me.closeContactTxtBox.Location = New System.Drawing.Point(333, 414)
+        Me.closeContactTxtBox.Name = "closeContactTxtBox"
+        Me.closeContactTxtBox.Size = New System.Drawing.Size(115, 19)
+        Me.closeContactTxtBox.TabIndex = 23
         '
         'Form1
         '
@@ -276,11 +276,11 @@ Partial Class Form1
         Me.BackColor = System.Drawing.Color.DarkCyan
         Me.ClientSize = New System.Drawing.Size(538, 578)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.closeContactTxtBox)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.travelTxtBox)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.symptomsTxtBox)
         Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.titleName)
         Me.Controls.Add(Me.dateOfVisit)
@@ -332,9 +332,9 @@ Partial Class Form1
     Friend WithEvents titleName As Label
     Friend WithEvents clearBtn As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents symptomsTxtBox As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents travelTxtBox As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents closeContactTxtBox As TextBox
 End Class
