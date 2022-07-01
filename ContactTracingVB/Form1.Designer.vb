@@ -42,12 +42,18 @@ Partial Class Form1
         Me.dateOfVisit = New System.Windows.Forms.Label()
         Me.titleName = New System.Windows.Forms.Label()
         Me.clearBtn = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'submitBtn
         '
         Me.submitBtn.Font = New System.Drawing.Font("BankGothic Lt BT", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.submitBtn.Location = New System.Drawing.Point(382, 295)
+        Me.submitBtn.Location = New System.Drawing.Point(426, 542)
         Me.submitBtn.Name = "submitBtn"
         Me.submitBtn.Size = New System.Drawing.Size(98, 24)
         Me.submitBtn.TabIndex = 9
@@ -204,19 +210,77 @@ Partial Class Form1
         'clearBtn
         '
         Me.clearBtn.Font = New System.Drawing.Font("BankGothic Lt BT", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clearBtn.Location = New System.Drawing.Point(278, 295)
+        Me.clearBtn.Location = New System.Drawing.Point(322, 542)
         Me.clearBtn.Name = "clearBtn"
         Me.clearBtn.Size = New System.Drawing.Size(85, 24)
         Me.clearBtn.TabIndex = 18
         Me.clearBtn.Text = "Clear"
         Me.clearBtn.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("BankGothic Lt BT", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(29, 291)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(257, 42)
+        Me.Label1.TabIndex = 20
+        Me.Label1.Text = "Have you had any" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "of the Covid-19 symptoms?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(Fever, Cough, Runny nose, etc.)"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(333, 314)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(115, 19)
+        Me.TextBox1.TabIndex = 19
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("BankGothic Lt BT", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(30, 357)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(269, 28)
+        Me.Label2.TabIndex = 22
+        Me.Label2.Text = "Have you travelled outside of the" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Philippines for the last 14 days?"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(333, 357)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(115, 19)
+        Me.TextBox2.TabIndex = 21
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("BankGothic Lt BT", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(29, 404)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(298, 42)
+        Me.Label3.TabIndex = 24
+        Me.Label3.Text = "Have you had any close contact from" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "a person who was suspectible of the" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Covid-1" &
+    "9 virus?"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(333, 404)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(115, 19)
+        Me.TextBox3.TabIndex = 23
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkCyan
-        Me.ClientSize = New System.Drawing.Size(514, 345)
+        Me.ClientSize = New System.Drawing.Size(538, 578)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.clearBtn)
         Me.Controls.Add(Me.titleName)
         Me.Controls.Add(Me.dateOfVisit)
@@ -267,4 +331,10 @@ Partial Class Form1
     Friend WithEvents dateOfVisit As Label
     Friend WithEvents titleName As Label
     Friend WithEvents clearBtn As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox3 As TextBox
 End Class
