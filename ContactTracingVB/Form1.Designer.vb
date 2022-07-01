@@ -56,7 +56,7 @@ Partial Class Form1
         Me.submitBtn.Location = New System.Drawing.Point(426, 542)
         Me.submitBtn.Name = "submitBtn"
         Me.submitBtn.Size = New System.Drawing.Size(98, 24)
-        Me.submitBtn.TabIndex = 9
+        Me.submitBtn.TabIndex = 12
         Me.submitBtn.Text = "Submit"
         Me.submitBtn.UseVisualStyleBackColor = True
         '
@@ -199,11 +199,11 @@ Partial Class Form1
         'titleName
         '
         Me.titleName.AutoSize = True
-        Me.titleName.Font = New System.Drawing.Font("BankGothic Md BT", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.titleName.Font = New System.Drawing.Font("BankGothic Md BT", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.titleName.ForeColor = System.Drawing.Color.White
-        Me.titleName.Location = New System.Drawing.Point(158, 26)
+        Me.titleName.Location = New System.Drawing.Point(138, 22)
         Me.titleName.Name = "titleName"
-        Me.titleName.Size = New System.Drawing.Size(205, 25)
+        Me.titleName.Size = New System.Drawing.Size(273, 34)
         Me.titleName.TabIndex = 17
         Me.titleName.Text = "Stay Safe App"
         '
@@ -232,7 +232,7 @@ Partial Class Form1
         Me.symptomsTxtBox.Location = New System.Drawing.Point(333, 324)
         Me.symptomsTxtBox.Name = "symptomsTxtBox"
         Me.symptomsTxtBox.Size = New System.Drawing.Size(115, 19)
-        Me.symptomsTxtBox.TabIndex = 19
+        Me.symptomsTxtBox.TabIndex = 9
         '
         'Label2
         '
@@ -249,7 +249,7 @@ Partial Class Form1
         Me.travelTxtBox.Location = New System.Drawing.Point(333, 367)
         Me.travelTxtBox.Name = "travelTxtBox"
         Me.travelTxtBox.Size = New System.Drawing.Size(115, 19)
-        Me.travelTxtBox.TabIndex = 21
+        Me.travelTxtBox.TabIndex = 10
         '
         'Label3
         '
@@ -267,7 +267,7 @@ Partial Class Form1
         Me.closeContactTxtBox.Location = New System.Drawing.Point(333, 414)
         Me.closeContactTxtBox.Name = "closeContactTxtBox"
         Me.closeContactTxtBox.Size = New System.Drawing.Size(115, 19)
-        Me.closeContactTxtBox.TabIndex = 23
+        Me.closeContactTxtBox.TabIndex = 11
         '
         'Form1
         '

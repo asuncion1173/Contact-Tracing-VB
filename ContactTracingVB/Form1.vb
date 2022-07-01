@@ -28,6 +28,9 @@
         genderTxtBox.Text = ""
         emailTxtBox.Text = ""
         dateTxtBox.Text = ""
+        symptomsTxtBox.Text = ""
+        travelTxtBox.Text = ""
+        closeContactTxtBox.Text = ""
     End Sub
 
     Private Sub clearBtn_Click(sender As Object, e As EventArgs) Handles clearBtn.Click
